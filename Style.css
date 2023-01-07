@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bkgd::before {
+    content: '';
+    background: url('BG.jpg');
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    height: 150%;
+    width: 100%;
+    z-index: -1;
+}
+
+.heading {
+    color: aliceblue;
+}
+
+.tab {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("photo.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.you {
+  position: relative;
+  top: 90px;
+} 
+
+
+.house{
+    position: relative;
+    top: 320px;
+}
+
+.button{
+    position: relative;
+    top: 25px;
+    margin: 30px;
+}
+#yourCards{
+    padding-top: 100px;
+    display: flex;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+#yourCards > img{
+    display: inline;
+    margin: 20px;
+}
+#houseCards > img{
+    display: inline;
+    margin: 20px;
+}
+#houseCards{
+    margin-top: -150px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
